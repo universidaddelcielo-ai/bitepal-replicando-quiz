@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  font-family: 'Bricolage Grotesque', 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overscroll-behavior: none;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input, textarea, select {
+  font-family: inherit;
+}
